@@ -61,7 +61,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "productoFRONT:build:production"
+              "browserTarget": "productoFRONT:build:production",
+              "host": "0.0.0.0"
             },
             "development": {
               "browserTarget": "productoFRONT:build:development"
