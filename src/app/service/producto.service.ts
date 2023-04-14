@@ -9,7 +9,7 @@ import { Producto } from '../models/producto';
 export class ProductoService {
 
   //productoURL = 'http://localhost:8080/producto/';
-  productoURL = 'http://140.84.176.178:8080/producto/';
+  productoURL = 'http://140.84.183.196:8080/producto/';
 
   constructor(private httpClient: HttpClient) { }
 
